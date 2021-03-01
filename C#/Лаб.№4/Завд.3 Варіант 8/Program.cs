@@ -33,7 +33,7 @@ namespace Завд._3_Варіант_8
                 max = b;
             else 
                 if (max > c) 
-                    Console.WriteLine("The biggest side = {0}", max);
+                    Console.WriteLine("The biggest side = {0}", max);       //Треба знайти  максимальне, а вже потім виводити один раз після умовного оператора
                 else
                     max = c;
                     Console.WriteLine("The biggest side = " + max);
